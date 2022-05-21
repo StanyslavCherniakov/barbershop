@@ -1,0 +1,55 @@
+:root {
+  --primary-text-color: #555555;
+  --white-text-color: #ffffff;
+  --accent-color: #ff6c00;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f7f7f7;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* =====HEADER===== */
+.header {
+  background-color: #555555;
+}
+
+.header-link {
+  color: var(--white-text-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.header-tel {
+  color: var(--white-text-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.header-btn {
+  color: var(--white-text-color);
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
