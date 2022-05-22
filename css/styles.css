@@ -171,7 +171,61 @@ body {
   line-height: 16px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  cursor: pointer;
 
   color: var(--secondary-text-color);
   background-color: transparent;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  color: var(--accent-color);
+}
+
+/* ========Services and prices========== */
+.services {
+  background-color: #555555;
+}
+
+.services-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+.services-title {
+  font-family: 'Raleway';
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+
+  color: var(--white-text-color);
+}
+
+.services-item {
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: var(--third-text-color);
+}
+
+.services-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: var(--white-text-color);
+  background-color: transparent;
+}
+
+.services-btn:hover,
+.services-btn:focus {
+  color: var(--accent-color);
 }
