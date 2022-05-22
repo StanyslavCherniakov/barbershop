@@ -126,3 +126,52 @@ body {
 
   color: var(--third-text-color);
 }
+
+/* =====About us===== */
+.about-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+
+.about-title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+
+  color: var(--secondary-text-color);
+}
+
+.about-down-text {
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: var(--primary-text-color);
+}
+
+.about-bottom-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+  background-color: transparent;
+}
