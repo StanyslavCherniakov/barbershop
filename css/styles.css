@@ -229,3 +229,49 @@ body {
 .services-btn:focus {
   color: var(--accent-color);
 }
+
+/* ========Why we========== */
+
+.advantages-item span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: var(--secondary-text-color);
+}
+.advantages-item p {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+.advantages-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+.advantages-title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+
+  color: var(--secondary-text-color);
+}
+.advantages-botom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
