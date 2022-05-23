@@ -15,6 +15,31 @@ body {
   letter-spacing: 0.02em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+}
+
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -37,6 +62,9 @@ body {
 
 /* =====HEADER===== */
 .header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   background-color: #555555;
 }
 
@@ -86,6 +114,14 @@ body {
 
 /* =====HERO===== */
 .hero {
+}
+
+.hero-content {
+  padding-top: 270px;
+  padding-right: 449px;
+  padding-bottom: 206px;
+  padding-left: 99px;
+
   background-color: #555555;
 }
 
@@ -99,6 +135,8 @@ body {
 }
 
 .hero-top-text {
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -109,6 +147,8 @@ body {
 }
 
 .hero-title {
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -120,6 +160,8 @@ body {
 }
 
 .hero-bottom-text {
+  max-width: 400px;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
@@ -128,7 +170,14 @@ body {
 }
 
 /* =====About us===== */
+.about {
+  padding-top: 169px;
+  padding-bottom: 91px;
+}
+
 .about-top-text {
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -139,6 +188,8 @@ body {
 }
 
 .about-title {
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -150,6 +201,8 @@ body {
 }
 
 .about-down-text {
+  margin-bottom: 20px;
+
   font-size: 18px;
   line-height: 1.67;
 
@@ -157,6 +210,8 @@ body {
 }
 
 .about-bottom-text {
+  margin-bottom: 40px;
+
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
