@@ -32,8 +32,6 @@ ul {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: 2px solid tomato;
 }
 
 img {
@@ -239,10 +237,15 @@ img {
 
 /* ======Services and prices====== */
 .services {
+  padding-top: 130px;
+  padding-bottom: 130px;
+
   background-color: #555555;
 }
 
 .services-text {
+  padding-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -252,6 +255,8 @@ img {
   color: rgba(157, 164, 189, 0.6);
 }
 .services-title {
+  padding-bottom: 44px;
+
   font-family: 'Raleway';
   font-size: 42px;
   line-height: 49px;
@@ -260,7 +265,17 @@ img {
   color: var(--white-text-color);
 }
 
+.services-list-left {
+  padding: 30px 40px;
+}
+
+.services-list-right {
+  padding: 30px 40px;
+}
+
 .services-item {
+  margin-bottom: 20px;
+
   font-size: 18px;
   line-height: 1.67;
 
@@ -268,6 +283,11 @@ img {
 }
 
 .services-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -286,12 +306,27 @@ img {
 }
 
 /* ======Why we====== */
+.advantages {
+  padding-top: 143px;
+  padding-bottom: 137px;
+}
+
+.advantages-item {
+  padding: 20px 24px;
+  width: 170px;
+  height: 133px;
+
+  text-align: center;
+}
 
 .advantages-item span {
+  display: block;
+  margin-bottom: 6px;
+
   font-weight: 700;
   font-size: 42px;
   line-height: 1.35;
-  text-align: center;
+
   letter-spacing: 0.05em;
 
   color: var(--secondary-text-color);
@@ -300,11 +335,12 @@ img {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
-  text-align: center;
 
   color: var(--secondary-text-color);
 }
 .advantages-top-text {
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -314,6 +350,8 @@ img {
   color: var(--secondary-text-color);
 }
 .advantages-title {
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
