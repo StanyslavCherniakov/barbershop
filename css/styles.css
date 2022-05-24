@@ -371,9 +371,15 @@ img {
 
 /* ====Our masters==== */
 .masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+
   background-color: var(--secondary-bg-color);
 }
+
 .masters-text {
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -383,6 +389,8 @@ img {
   color: var(--secondary-text-color);
 }
 .masters-title {
+  margin-bottom: 44px;
+
   font-family: 'Raleway';
   font-size: 42px;
   line-height: 1.16;
@@ -405,7 +413,14 @@ img {
 }
 
 /* ====Work galery===== */
+.galery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
 .galery-text {
+  margin-bottom: 44px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
