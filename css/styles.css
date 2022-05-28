@@ -322,14 +322,18 @@ img {
 }
 
 .services-list-left {
+  min-width: 585px;
   padding: 30px 40px;
 }
 
 .services-list-right {
+  min-width: 585px;
   padding: 30px 40px;
 }
 
 .services-item {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
 
   font-size: 18px;
@@ -338,11 +342,22 @@ img {
   color: var(--third-text-color);
 }
 
+.services .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
 .services-btn {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+
+  padding: 12px 20px;
+  min-width: 160px;
+  height: 40px;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
 
   font-family: inherit;
   font-weight: 600;
