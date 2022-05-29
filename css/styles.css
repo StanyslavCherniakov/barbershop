@@ -478,6 +478,18 @@ img {
   background-color: var(--secondary-bg-color);
 }
 
+.masters-list {
+  display: flex;
+  margin-right: -30px;
+}
+
+.masters-item {
+  flex-basis: calc((100%-90) / 3);
+  margin-right: 30px;
+
+  text-align: center;
+}
+
 .masters-text {
   margin-bottom: 20px;
 
@@ -501,6 +513,8 @@ img {
 }
 
 .masters-name {
+  margin-top: 30px;
+  margin-bottom: 8px;
   font-size: 18px;
   line-height: 1.38;
 
@@ -517,6 +531,18 @@ img {
 .galery {
   padding-top: 130px;
   padding-bottom: 130px;
+}
+
+.galery-list {
+  display: flex;
+}
+
+.galery-item {
+  flex-basis: calc((100%-90) / 4);
+}
+
+.galery-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .galery-text {
